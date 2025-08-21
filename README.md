@@ -7,17 +7,17 @@ MPCS50101 - Summer 2025
 
 ### 1) Make the file executable
 
-- In terminal (navigate to project folder) run:
+In terminal (navigate to project folder) run:
 ```bash
 chmod +x todo.py
 ``` 
 
 ### 2) Copy it to a directory in PATH (Mac/Linux)
-- Copy the file to /usr/local/bin/:
+Copy the file to /usr/local/bin/:
 ```bash
 sudo cp todo.py /usr/local/bin/todo
 ```
-- Note: You can rename "todo.py" to just "todo" so we can run it as "todo" instead of "python todo.py" (much easier)
+Note: You can rename `todo.py` to just `todo` so we can run it as `todo` instead of `python todo.py` (much easier)
 
 ### 3) Test
 Try these commands from another directory:
@@ -39,15 +39,18 @@ todo --done 3
     - Tasks are now available wherever the command is run
 
 ### How to use it
-- **BEFORE we had to type:**
-    - `python todo.py --add "Task 1" --due 8/20/2025 --priority 1`
-    - `python todo.py --list`
-    - `python todo.py --done 1`
-
-- **NOW we can simply type:**
-    - `todo --add "Task 1" --due 8/20/2025 --priority 1`
-    - `todo --list`
-    - `todo --done 1`
+**BEFORE we had to type:**
+```bash
+python todo.py --add "Task 1" --due 8/20/2025 --priority 1
+python todo.py --list
+python todo.py --done 1
+```
+**NOW we can simply type:**
+```bash
+todo --add "Task 1" --due 8/20/2025 --priority 1
+todo --list
+todo --done 1
+```
 
 Which is way easier!
 
