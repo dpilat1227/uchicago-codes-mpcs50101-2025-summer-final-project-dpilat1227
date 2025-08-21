@@ -1,8 +1,9 @@
 # Final Project 
-**MPCS50101 - Summer 2025**
+MPCS50101 - Summer 2025
 
+---
 
-### How To Make Task Manager Executable / Run From Anywhere
+## How To Make Task Manager Executable / Run From Anywhere
 
 ### 1) Make the file executable
 
@@ -19,10 +20,17 @@ sudo cp todo.py /usr/local/bin/todo
 - Note: You can rename "todo.py" to just "todo" so we can run it as "todo" instead of "python todo.py" (much easier)
 
 ### 3) Test
-- Try these commands in terminal from another directory:
-    - `todo --add "Task manage from anywhere!" --priority 2`
-    - `todo --list`
+Try these commands from another directory:
+```bash
+# Add a new task with a priority
+todo --add "Finish the README" --priority 3
 
+# List all current tasks
+todo --list
+
+# Complete a task by its ID
+todo --done 3
+```
 
 ### What I updated in `todo.py`
 - Added shebang line (#!/usr/bin/env python3) at the top of code
