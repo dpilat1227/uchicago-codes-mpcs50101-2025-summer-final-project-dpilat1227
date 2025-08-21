@@ -58,4 +58,4 @@ Which is way easier!
 
 **PS - Thank you Professor Andrew and Jiamao Zheng.**
 
-I really enjoyed the course. I hope to register for one of your other courses if possible.
+I really enjoyed the course. I hope to register for more of your courses during my program. 
