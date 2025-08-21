@@ -1,9 +1,11 @@
 # Final Project 
-MPCS50101 - Summer 2025
+**mpcs50101** — Summer 2025
 
----
+Drew Pilat
 
-## How To Make Task Manager Executable / Run From Anywhere
+---  
+
+## How To Make Task Manager Executable
 
 ### 1) Make the file executable
 
